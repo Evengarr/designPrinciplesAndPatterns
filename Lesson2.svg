@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1137px" preserveAspectRatio="none" style="width:3681px;height:1137px;background:#FFFFFF;" version="1.1" viewBox="0 0 3681 1137" width="3681px" zoomAndPan="magnify"><defs><filter height="300%" id="f1j5vo8bzr3hj" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[1caf78541adae1d118a168681c14a5bf]
+cluster core-lib--><polygon fill="#DDDDDD" filter="url(#f1j5vo8bzr3hj)" points="16,6,83,6,90,28.2969,1667,28.2969,1667,612.5,16,612.5,16,6" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="16" x2="90" y1="28.2969" y2="28.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="61" x="20" y="20.9951">core-lib</text><!--MD5=[87a839285c4e636151e0ab9ef5595388]
+cluster product--><polygon fill="#DDDDDD" filter="url(#f1j5vo8bzr3hj)" points="1707,240,1777,240,1784,262.2969,2516,262.2969,2516,1117,1707,1117,1707,240" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="1707" x2="1784" y1="262.2969" y2="262.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="64" x="1711" y="254.9951">product</text><!--MD5=[cb8ac4b308bf29cccff4fabd2ec04d9c]
+cluster user--><polygon fill="#DDDDDD" filter="url(#f1j5vo8bzr3hj)" points="2556,240,2597,240,2604,262.2969,3664,262.2969,3664,1130,2556,1130,2556,240" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="2556" x2="2604" y1="262.2969" y2="262.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="35" x="2560" y="254.9951">user</text><!--MD5=[3b07180ef4e08c07a01122f44d73b4b9]
+class RedisRepository--><rect codeLine="45" fill="#FEFECE" filter="url(#f1j5vo8bzr3hj)" height="86.4141" id="RedisRepository" style="stroke:#A80036;stroke-width:1.5;" width="312" x="350" y="75"/><ellipse cx="452.75" cy="91" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M455.0938,86.6719 C454.1563,86.2344 453.5625,86.0938 452.6875,86.0938 C450.0625,86.0938 448.0625,88.1719 448.0625,90.8906 L448.0625,92.0156 C448.0625,94.5938 450.1719,96.4844 453.0625,96.4844 C454.2813,96.4844 455.4375,96.1875 456.1875,95.6406 C456.7656,95.2344 457.0938,94.7813 457.0938,94.3906 C457.0938,93.9375 456.7031,93.5469 456.2344,93.5469 C456.0156,93.5469 455.8125,93.625 455.625,93.8125 C455.1719,94.2969 455.1719,94.2969 454.9844,94.3906 C454.5625,94.6563 453.875,94.7813 453.1094,94.7813 C451.0625,94.7813 449.7656,93.6875 449.7656,91.9844 L449.7656,90.8906 C449.7656,89.1094 451.0156,87.7969 452.75,87.7969 C453.3281,87.7969 453.9375,87.9531 454.4063,88.2031 C454.8906,88.4844 455.0625,88.7031 455.1563,89.1094 C455.2188,89.5156 455.25,89.6406 455.3906,89.7656 C455.5313,89.9063 455.7656,90.0156 455.9844,90.0156 C456.25,90.0156 456.5156,89.875 456.6875,89.6563 C456.7969,89.5 456.8281,89.3125 456.8281,88.8906 L456.8281,87.4688 C456.8281,87.0313 456.8125,86.9063 456.7188,86.75 C456.5625,86.4844 456.2813,86.3438 455.9844,86.3438 C455.6875,86.3438 455.4844,86.4375 455.2656,86.75 L455.0938,86.6719 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="98" x="473.25" y="95.1543">RedisRepository</text><line style="stroke:#A80036;stroke-width:1.5;" x1="351" x2="661" y1="107" y2="107"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="300" x="356" y="121.2104">-final RedisTemplate&lt;String, Object&gt; redisTemplate</text><line style="stroke:#A80036;stroke-width:1.5;" x1="351" x2="661" y1="127.8047" y2="127.8047"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="177" x="356" y="142.0151">+void saveToken(String token)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="204" x="356" y="154.8198">+boolean checkToken(String token)</text><!--MD5=[9114da770bfa329a3985d9780085afe1]
+class JWTAuthenticationFilter--><rect codeLine="36" fill="#FEFECE" filter="url(#f1j5vo8bzr3hj)" height="112.0234" id="JWTAuthenticationFilter" style="stroke:#A80036;stroke-width:1.5;" width="750" x="885" y="247"/><ellipse cx="1187.25" cy="263" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1189.5938,258.6719 C1188.6563,258.2344 1188.0625,258.0938 1187.1875,258.0938 C1184.5625,258.0938 1182.5625,260.1719 1182.5625,262.8906 L1182.5625,264.0156 C1182.5625,266.5938 1184.6719,268.4844 1187.5625,268.4844 C1188.7813,268.4844 1189.9375,268.1875 1190.6875,267.6406 C1191.2656,267.2344 1191.5938,266.7813 1191.5938,266.3906 C1191.5938,265.9375 1191.2031,265.5469 1190.7344,265.5469 C1190.5156,265.5469 1190.3125,265.625 1190.125,265.8125 C1189.6719,266.2969 1189.6719,266.2969 1189.4844,266.3906 C1189.0625,266.6563 1188.375,266.7813 1187.6094,266.7813 C1185.5625,266.7813 1184.2656,265.6875 1184.2656,263.9844 L1184.2656,262.8906 C1184.2656,261.1094 1185.5156,259.7969 1187.25,259.7969 C1187.8281,259.7969 1188.4375,259.9531 1188.9063,260.2031 C1189.3906,260.4844 1189.5625,260.7031 1189.6563,261.1094 C1189.7188,261.5156 1189.75,261.6406 1189.8906,261.7656 C1190.0313,261.9063 1190.2656,262.0156 1190.4844,262.0156 C1190.75,262.0156 1191.0156,261.875 1191.1875,261.6563 C1191.2969,261.5 1191.3281,261.3125 1191.3281,260.8906 L1191.3281,259.4688 C1191.3281,259.0313 1191.3125,258.9063 1191.2188,258.75 C1191.0625,258.4844 1190.7813,258.3438 1190.4844,258.3438 C1190.1875,258.3438 1189.9844,258.4375 1189.7656,258.75 L1189.5938,258.6719 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="137" x="1207.75" y="267.1543">JWTAuthenticationFilter</text><line style="stroke:#A80036;stroke-width:1.5;" x1="886" x2="1634" y1="279" y2="279"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="194" x="891" y="293.2104">-final ITokenService tokenService</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="215" x="891" y="306.0151">-final RedisRepository redisRepository</text><line style="stroke:#A80036;stroke-width:1.5;" x1="886" x2="1634" y1="312.6094" y2="312.6094"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="738" x="891" y="326.8198">#void doFilterInternal(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, FilterChain filterChain)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="377" x="891" y="339.6245">-boolean authorizationHeaderIsInvalid(String authorizationHeader)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="513" x="891" y="352.4292">-private UsernamePasswordAuthenticationToken createToken(String authorizationHeader)</text><!--MD5=[ae14da25468f13ed7c92ded6b0b82ec9]
+class RedisConfiguration--><rect codeLine="31" fill="#FEFECE" filter="url(#f1j5vo8bzr3hj)" height="73.6094" id="RedisConfiguration" style="stroke:#A80036;stroke-width:1.5;" width="297" x="354.5" y="266"/><ellipse cx="442.75" cy="282" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M445.0938,277.6719 C444.1563,277.2344 443.5625,277.0938 442.6875,277.0938 C440.0625,277.0938 438.0625,279.1719 438.0625,281.8906 L438.0625,283.0156 C438.0625,285.5938 440.1719,287.4844 443.0625,287.4844 C444.2813,287.4844 445.4375,287.1875 446.1875,286.6406 C446.7656,286.2344 447.0938,285.7813 447.0938,285.3906 C447.0938,284.9375 446.7031,284.5469 446.2344,284.5469 C446.0156,284.5469 445.8125,284.625 445.625,284.8125 C445.1719,285.2969 445.1719,285.2969 444.9844,285.3906 C444.5625,285.6563 443.875,285.7813 443.1094,285.7813 C441.0625,285.7813 439.7656,284.6875 439.7656,282.9844 L439.7656,281.8906 C439.7656,280.1094 441.0156,278.7969 442.75,278.7969 C443.3281,278.7969 443.9375,278.9531 444.4063,279.2031 C444.8906,279.4844 445.0625,279.7031 445.1563,280.1094 C445.2188,280.5156 445.25,280.6406 445.3906,280.7656 C445.5313,280.9063 445.7656,281.0156 445.9844,281.0156 C446.25,281.0156 446.5156,280.875 446.6875,280.6563 C446.7969,280.5 446.8281,280.3125 446.8281,279.8906 L446.8281,278.4688 C446.8281,278.0313 446.8125,277.9063 446.7188,277.75 C446.5625,277.4844 446.2813,277.3438 445.9844,277.3438 C445.6875,277.3438 445.4844,277.4375 445.2656,277.75 L445.0938,277.6719 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="112" x="463.25" y="286.1543">RedisConfiguration</text><line style="stroke:#A80036;stroke-width:1.5;" x1="355.5" x2="650.5" y1="298" y2="298"/><line style="stroke:#A80036;stroke-width:1.5;" x1="355.5" x2="650.5" y1="306" y2="306"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="285" x="360.5" y="320.2104">+JedisConnectionFactory jedisConnectionFactory()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="285" x="360.5" y="333.0151">+RedisTemplate&lt;String, Object&gt; redisTemplate()</text><!--MD5=[9e94af7e26ddd61f16675ec5a7d7b75f]
+class UserInfo--><rect codeLine="14" fill="#FEFECE" filter="url(#f1j5vo8bzr3hj)" height="137.6328" id="UserInfo" style="stroke:#A80036;stroke-width:1.5;" width="196" x="70" y="49"/><ellipse cx="138.25" cy="65" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M140.5938,60.6719 C139.6563,60.2344 139.0625,60.0938 138.1875,60.0938 C135.5625,60.0938 133.5625,62.1719 133.5625,64.8906 L133.5625,66.0156 C133.5625,68.5938 135.6719,70.4844 138.5625,70.4844 C139.7813,70.4844 140.9375,70.1875 141.6875,69.6406 C142.2656,69.2344 142.5938,68.7813 142.5938,68.3906 C142.5938,67.9375 142.2031,67.5469 141.7344,67.5469 C141.5156,67.5469 141.3125,67.625 141.125,67.8125 C140.6719,68.2969 140.6719,68.2969 140.4844,68.3906 C140.0625,68.6563 139.375,68.7813 138.6094,68.7813 C136.5625,68.7813 135.2656,67.6875 135.2656,65.9844 L135.2656,64.8906 C135.2656,63.1094 136.5156,61.7969 138.25,61.7969 C138.8281,61.7969 139.4375,61.9531 139.9063,62.2031 C140.3906,62.4844 140.5625,62.7031 140.6563,63.1094 C140.7188,63.5156 140.75,63.6406 140.8906,63.7656 C141.0313,63.9063 141.2656,64.0156 141.4844,64.0156 C141.75,64.0156 142.0156,63.875 142.1875,63.6563 C142.2969,63.5 142.3281,63.3125 142.3281,62.8906 L142.3281,61.4688 C142.3281,61.0313 142.3125,60.9063 142.2188,60.75 C142.0625,60.4844 141.7813,60.3438 141.4844,60.3438 C141.1875,60.3438 140.9844,60.4375 140.7656,60.75 L140.5938,60.6719 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="51" x="158.75" y="69.1543">UserInfo</text><line style="stroke:#A80036;stroke-width:1.5;" x1="71" x2="265" y1="81" y2="81"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="70" x="76" y="95.2104">-Long userId</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="97" x="76" y="108.0151">-String userEmail</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="100" x="76" y="120.8198">-List&lt;String&gt; role</text><line style="stroke:#A80036;stroke-width:1.5;" x1="71" x2="265" y1="127.4141" y2="127.4141"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="103" x="76" y="141.6245">+Long getUserId()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="130" x="76" y="154.4292">+String getUserEmail()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="135" x="76" y="167.2339">+List&lt;String&gt; getRole()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="184" x="76" y="180.0386">+void setRole(List&lt;String&gt; role)</text><!--MD5=[446232b2c118d8b8d0a8ee28d1eec3ba]
+class JWTTokenService--><rect codeLine="57" fill="#FEFECE" filter="url(#f1j5vo8bzr3hj)" height="86.4141" id="JWTTokenService" style="stroke:#A80036;stroke-width:1.5;" width="251" x="56.5" y="502.5"/><ellipse cx="124.75" cy="518.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M127.0938,514.1719 C126.1563,513.7344 125.5625,513.5938 124.6875,513.5938 C122.0625,513.5938 120.0625,515.6719 120.0625,518.3906 L120.0625,519.5156 C120.0625,522.0938 122.1719,523.9844 125.0625,523.9844 C126.2813,523.9844 127.4375,523.6875 128.1875,523.1406 C128.7656,522.7344 129.0938,522.2813 129.0938,521.8906 C129.0938,521.4375 128.7031,521.0469 128.2344,521.0469 C128.0156,521.0469 127.8125,521.125 127.625,521.3125 C127.1719,521.7969 127.1719,521.7969 126.9844,521.8906 C126.5625,522.1563 125.875,522.2813 125.1094,522.2813 C123.0625,522.2813 121.7656,521.1875 121.7656,519.4844 L121.7656,518.3906 C121.7656,516.6094 123.0156,515.2969 124.75,515.2969 C125.3281,515.2969 125.9375,515.4531 126.4063,515.7031 C126.8906,515.9844 127.0625,516.2031 127.1563,516.6094 C127.2188,517.0156 127.25,517.1406 127.3906,517.2656 C127.5313,517.4063 127.7656,517.5156 127.9844,517.5156 C128.25,517.5156 128.5156,517.375 128.6875,517.1563 C128.7969,517 128.8281,516.8125 128.8281,516.3906 L128.8281,514.9688 C128.8281,514.5313 128.8125,514.4063 128.7188,514.25 C128.5625,513.9844 128.2813,513.8438 127.9844,513.8438 C127.6875,513.8438 127.4844,513.9375 127.2656,514.25 L127.0938,514.1719 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="106" x="145.25" y="522.6543">JWTTokenService</text><line style="stroke:#A80036;stroke-width:1.5;" x1="57.5" x2="306.5" y1="534.5" y2="534.5"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="112" x="62.5" y="548.7104">-String JWT_SECRET</text><line style="stroke:#A80036;stroke-width:1.5;" x1="57.5" x2="306.5" y1="555.3047" y2="555.3047"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="239" x="62.5" y="569.5151">+String generateToken(UserInfo userInfo)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="204" x="62.5" y="582.3198">+UserInfo parseToken(String token)</text><!--MD5=[897e891fa3bfec5e89ca5e1c355ffa81]
+class ITokenService--><rect codeLine="52" fill="#FEFECE" filter="url(#f1j5vo8bzr3hj)" height="73.6094" id="ITokenService" style="stroke:#A80036;stroke-width:1.5;" width="242" x="77" y="266"/><ellipse cx="151.75" cy="282" fill="#B4A7E5" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M152.7031,278.7813 L154.4219,278.7813 C154.8125,278.7813 155,278.75 155.125,278.6719 C155.3906,278.5156 155.5313,278.2344 155.5313,277.9375 C155.5313,277.6719 155.4219,277.4063 155.1875,277.2344 C155.0156,277.125 154.875,277.0938 154.4219,277.0938 L149.2813,277.0938 C148.8438,277.0938 148.7188,277.1094 148.5625,277.2031 C148.3125,277.3594 148.1563,277.6563 148.1563,277.9375 C148.1563,278.2188 148.2969,278.4688 148.5156,278.6406 C148.6719,278.75 148.8594,278.7813 149.2813,278.7813 L151,278.7813 L151,285.2969 L149.2813,285.2969 C148.8438,285.2969 148.7188,285.3125 148.5625,285.4219 C148.3125,285.5781 148.1563,285.8594 148.1563,286.1563 C148.1563,286.4063 148.2969,286.6719 148.5156,286.8281 C148.6719,286.9531 148.875,287 149.2813,287 L154.4219,287 C155.1719,287 155.5313,286.7188 155.5313,286.1563 C155.5313,285.875 155.4219,285.625 155.1875,285.4531 C155.0156,285.3281 154.875,285.2969 154.4219,285.2969 L152.7031,285.2969 L152.7031,278.7813 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="84" x="172.25" y="286.1543">ITokenService</text><line style="stroke:#A80036;stroke-width:1.5;" x1="78" x2="318" y1="298" y2="298"/><line style="stroke:#A80036;stroke-width:1.5;" x1="78" x2="318" y1="306" y2="306"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="230" x="83" y="320.2104">String generateToken(UserInfo userInfo)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="195" x="83" y="333.0151">UserInfo parseToken(String token)</text><!--MD5=[06793f366fa0fe742703541b0bcb23f0]
+class SecurityConfig--><rect codeLine="24" fill="#FEFECE" filter="url(#f1j5vo8bzr3hj)" height="86.4141" id="SecurityConfig" style="stroke:#A80036;stroke-width:1.5;" width="230" x="1132" y="75"/><ellipse cx="1199.25" cy="91" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1201.5938,86.6719 C1200.6563,86.2344 1200.0625,86.0938 1199.1875,86.0938 C1196.5625,86.0938 1194.5625,88.1719 1194.5625,90.8906 L1194.5625,92.0156 C1194.5625,94.5938 1196.6719,96.4844 1199.5625,96.4844 C1200.7813,96.4844 1201.9375,96.1875 1202.6875,95.6406 C1203.2656,95.2344 1203.5938,94.7813 1203.5938,94.3906 C1203.5938,93.9375 1203.2031,93.5469 1202.7344,93.5469 C1202.5156,93.5469 1202.3125,93.625 1202.125,93.8125 C1201.6719,94.2969 1201.6719,94.2969 1201.4844,94.3906 C1201.0625,94.6563 1200.375,94.7813 1199.6094,94.7813 C1197.5625,94.7813 1196.2656,93.6875 1196.2656,91.9844 L1196.2656,90.8906 C1196.2656,89.1094 1197.5156,87.7969 1199.25,87.7969 C1199.8281,87.7969 1200.4375,87.9531 1200.9063,88.2031 C1201.3906,88.4844 1201.5625,88.7031 1201.6563,89.1094 C1201.7188,89.5156 1201.75,89.6406 1201.8906,89.7656 C1202.0313,89.9063 1202.2656,90.0156 1202.4844,90.0156 C1202.75,90.0156 1203.0156,89.875 1203.1875,89.6563 C1203.2969,89.5 1203.3281,89.3125 1203.3281,88.8906 L1203.3281,87.4688 C1203.3281,87.0313 1203.3125,86.9063 1203.2188,86.75 C1203.0625,86.4844 1202.7813,86.3438 1202.4844,86.3438 C1202.1875,86.3438 1201.9844,86.4375 1201.7656,86.75 L1201.5938,86.6719 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="87" x="1219.75" y="95.1543">SecurityConfig</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1133" x2="1361" y1="107" y2="107"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="193" x="1138" y="121.2104">-final JWTAuthenticationFilter filter</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1133" x2="1361" y1="127.8047" y2="127.8047"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="194" x="1138" y="142.0151">+void configure(HttpSecurity http)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="218" x="1138" y="154.8198">+PasswordEncoder passwordEncoder()</text><path d="M1397,98 L1397,114 L1362.14,118 L1397,122 L1397,138.2656 A0,0 0 0 0 1397,138.2656 L1621,138.2656 A0,0 0 0 0 1621,138.2656 L1621,108 L1611,98 L1397,98 A0,0 0 0 0 1397,98 " fill="#FBFB77" filter="url(#f1j5vo8bzr3hj)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1611,98 L1611,108 L1621,108 L1611,98 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="106" x="1403" y="115.0669">наследуется от</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="199" x="1407" y="130.1997">WebSecurityConfigurerAdapter</text><path d="M686.5,283 L686.5,323.2656 A0,0 0 0 0 686.5,323.2656 L849.5,323.2656 A0,0 0 0 0 849.5,323.2656 L849.5,307 L884.942,303 L849.5,299 L849.5,293 L839.5,283 L686.5,283 A0,0 0 0 0 686.5,283 " fill="#FBFB77" filter="url(#f1j5vo8bzr3hj)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M839.5,283 L839.5,293 L849.5,293 L839.5,283 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="106" x="692.5" y="300.0669">наследуется от</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="138" x="696.5" y="315.1997">OncePerRequestFilter</text><!--MD5=[a741fd51c80cb582419d3c57256636fa]
+class ResourceNotFoundException--><rect codeLine="63" fill="#FEFECE" filter="url(#f1j5vo8bzr3hj)" height="48" id="ResourceNotFoundException" style="stroke:#A80036;stroke-width:1.5;" width="205" x="708.5" y="94"/><ellipse cx="723.5" cy="110" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M725.8438,105.6719 C724.9063,105.2344 724.3125,105.0938 723.4375,105.0938 C720.8125,105.0938 718.8125,107.1719 718.8125,109.8906 L718.8125,111.0156 C718.8125,113.5938 720.9219,115.4844 723.8125,115.4844 C725.0313,115.4844 726.1875,115.1875 726.9375,114.6406 C727.5156,114.2344 727.8438,113.7813 727.8438,113.3906 C727.8438,112.9375 727.4531,112.5469 726.9844,112.5469 C726.7656,112.5469 726.5625,112.625 726.375,112.8125 C725.9219,113.2969 725.9219,113.2969 725.7344,113.3906 C725.3125,113.6563 724.625,113.7813 723.8594,113.7813 C721.8125,113.7813 720.5156,112.6875 720.5156,110.9844 L720.5156,109.8906 C720.5156,108.1094 721.7656,106.7969 723.5,106.7969 C724.0781,106.7969 724.6875,106.9531 725.1563,107.2031 C725.6406,107.4844 725.8125,107.7031 725.9063,108.1094 C725.9688,108.5156 726,108.6406 726.1406,108.7656 C726.2813,108.9063 726.5156,109.0156 726.7344,109.0156 C727,109.0156 727.2656,108.875 727.4375,108.6563 C727.5469,108.5 727.5781,108.3125 727.5781,107.8906 L727.5781,106.4688 C727.5781,106.0313 727.5625,105.9063 727.4688,105.75 C727.3125,105.4844 727.0313,105.3438 726.7344,105.3438 C726.4375,105.3438 726.2344,105.4375 726.0156,105.75 L725.8438,105.6719 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="173" x="737.5" y="114.1543">ResourceNotFoundException</text><line style="stroke:#A80036;stroke-width:1.5;" x1="709.5" x2="912.5" y1="126" y2="126"/><line style="stroke:#A80036;stroke-width:1.5;" x1="709.5" x2="912.5" y1="134" y2="134"/><path d="M949,98 L949,114 L913.867,118 L949,122 L949,138.2656 A0,0 0 0 0 949,138.2656 L1091,138.2656 A0,0 0 0 0 1091,138.2656 L1091,108 L1081,98 L949,98 A0,0 0 0 0 949,98 " fill="#FBFB77" filter="url(#f1j5vo8bzr3hj)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1081,98 L1081,108 L1091,108 L1081,98 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="106" x="955" y="115.0669">наследуется от</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="117" x="959" y="130.1997">RuntimeException</text><!--MD5=[72136138052d025cffdce3c22fbd185f]
+class Product--><rect codeLine="74" fill="#FEFECE" filter="url(#f1j5vo8bzr3hj)" height="252.875" id="Product" style="stroke:#A80036;stroke-width:1.5;" width="575" x="1916.5" y="419"/><ellipse cx="2177.25" cy="435" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M2179.5938,430.6719 C2178.6563,430.2344 2178.0625,430.0938 2177.1875,430.0938 C2174.5625,430.0938 2172.5625,432.1719 2172.5625,434.8906 L2172.5625,436.0156 C2172.5625,438.5938 2174.6719,440.4844 2177.5625,440.4844 C2178.7813,440.4844 2179.9375,440.1875 2180.6875,439.6406 C2181.2656,439.2344 2181.5938,438.7813 2181.5938,438.3906 C2181.5938,437.9375 2181.2031,437.5469 2180.7344,437.5469 C2180.5156,437.5469 2180.3125,437.625 2180.125,437.8125 C2179.6719,438.2969 2179.6719,438.2969 2179.4844,438.3906 C2179.0625,438.6563 2178.375,438.7813 2177.6094,438.7813 C2175.5625,438.7813 2174.2656,437.6875 2174.2656,435.9844 L2174.2656,434.8906 C2174.2656,433.1094 2175.5156,431.7969 2177.25,431.7969 C2177.8281,431.7969 2178.4375,431.9531 2178.9063,432.2031 C2179.3906,432.4844 2179.5625,432.7031 2179.6563,433.1094 C2179.7188,433.5156 2179.75,433.6406 2179.8906,433.7656 C2180.0313,433.9063 2180.2656,434.0156 2180.4844,434.0156 C2180.75,434.0156 2181.0156,433.875 2181.1875,433.6563 C2181.2969,433.5 2181.3281,433.3125 2181.3281,432.8906 L2181.3281,431.4688 C2181.3281,431.0313 2181.3125,430.9063 2181.2188,430.75 C2181.0625,430.4844 2180.7813,430.3438 2180.4844,430.3438 C2180.1875,430.3438 2179.9844,430.4375 2179.7656,430.75 L2179.5938,430.6719 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="45" x="2197.75" y="439.1543">Product</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1917.5" x2="2490.5" y1="451" y2="451"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="45" x="1922.5" y="465.2104">-Long id</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="63" x="1922.5" y="478.0151">-String title</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="65" x="1922.5" y="490.8198">-Doble cost</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="150" x="1922.5" y="503.6245">-LocalDateTime createdAt</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="153" x="1922.5" y="516.4292">-LocalDateTime updatedAt</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1917.5" x2="2490.5" y1="523.0234" y2="523.0234"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="114" x="1922.5" y="537.2339">+void setId(Long id)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="77" x="1922.5" y="550.0386">+Long getId()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="147" x="1922.5" y="562.8433">+void setTitle(String title)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="98" x="1922.5" y="575.6479">+String getTitle()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="156" x="1922.5" y="588.4526">+void setCost(Double cost)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="99" x="1922.5" y="601.2573">+Doble getCost()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="267" x="1922.5" y="614.062">+void setCreatedAt(LocalDateTime createdAt)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="172" x="1922.5" y="626.8667">+LocalDateTime getCreated()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="272" x="1922.5" y="639.6714">+void setUpdatedAt(LocalDateTime updatedAt)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="186" x="1922.5" y="652.4761">+LocalDateTime getUpdatedAt()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="563" x="1922.5" y="665.2808">+Product(Long id, String title, Double cost, LocalDateTime createdAt, LocalDateTime updatedAt){}</text><!--MD5=[84d921a49792a35e3d6380b9bb3276ae]
+class ProductDto--><rect codeLine="93" fill="#FEFECE" filter="url(#f1j5vo8bzr3hj)" height="176.0469" id="ProductDto" style="stroke:#A80036;stroke-width:1.5;" width="286" x="2108" y="732"/><ellipse cx="2213.75" cy="748" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M2216.0938,743.6719 C2215.1563,743.2344 2214.5625,743.0938 2213.6875,743.0938 C2211.0625,743.0938 2209.0625,745.1719 2209.0625,747.8906 L2209.0625,749.0156 C2209.0625,751.5938 2211.1719,753.4844 2214.0625,753.4844 C2215.2813,753.4844 2216.4375,753.1875 2217.1875,752.6406 C2217.7656,752.2344 2218.0938,751.7813 2218.0938,751.3906 C2218.0938,750.9375 2217.7031,750.5469 2217.2344,750.5469 C2217.0156,750.5469 2216.8125,750.625 2216.625,750.8125 C2216.1719,751.2969 2216.1719,751.2969 2215.9844,751.3906 C2215.5625,751.6563 2214.875,751.7813 2214.1094,751.7813 C2212.0625,751.7813 2210.7656,750.6875 2210.7656,748.9844 L2210.7656,747.8906 C2210.7656,746.1094 2212.0156,744.7969 2213.75,744.7969 C2214.3281,744.7969 2214.9375,744.9531 2215.4063,745.2031 C2215.8906,745.4844 2216.0625,745.7031 2216.1563,746.1094 C2216.2188,746.5156 2216.25,746.6406 2216.3906,746.7656 C2216.5313,746.9063 2216.7656,747.0156 2216.9844,747.0156 C2217.25,747.0156 2217.5156,746.875 2217.6875,746.6563 C2217.7969,746.5 2217.8281,746.3125 2217.8281,745.8906 L2217.8281,744.4688 C2217.8281,744.0313 2217.8125,743.9063 2217.7188,743.75 C2217.5625,743.4844 2217.2813,743.3438 2216.9844,743.3438 C2216.6875,743.3438 2216.4844,743.4375 2216.2656,743.75 L2216.0938,743.6719 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="66" x="2234.25" y="752.1543">ProductDto</text><line style="stroke:#A80036;stroke-width:1.5;" x1="2109" x2="2393" y1="764" y2="764"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="45" x="2114" y="778.2104">-Long id</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="63" x="2114" y="791.0151">-String title</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="65" x="2114" y="803.8198">-Doble cost</text><line style="stroke:#A80036;stroke-width:1.5;" x1="2109" x2="2393" y1="810.4141" y2="810.4141"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="114" x="2114" y="824.6245">+void setId(Long id)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="77" x="2114" y="837.4292">+Long getId()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="147" x="2114" y="850.2339">+void setTitle(String title)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="98" x="2114" y="863.0386">+String getTitle()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="156" x="2114" y="875.8433">+void setCost(Double cost)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="99" x="2114" y="888.6479">+Doble getCost()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="274" x="2114" y="901.4526">+ProductDto(Long id, String title, Double cost){}</text><!--MD5=[f9761e4ec0e5a044b983a0fb01ce84a9]
+class ProductRepository--><rect codeLine="106" fill="#FEFECE" filter="url(#f1j5vo8bzr3hj)" height="48" id="ProductRepository" style="stroke:#A80036;stroke-width:1.5;" width="142" x="1739" y="521.5"/><ellipse cx="1754" cy="537.5" fill="#B4A7E5" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1754.9531,534.2813 L1756.6719,534.2813 C1757.0625,534.2813 1757.25,534.25 1757.375,534.1719 C1757.6406,534.0156 1757.7813,533.7344 1757.7813,533.4375 C1757.7813,533.1719 1757.6719,532.9063 1757.4375,532.7344 C1757.2656,532.625 1757.125,532.5938 1756.6719,532.5938 L1751.5313,532.5938 C1751.0938,532.5938 1750.9688,532.6094 1750.8125,532.7031 C1750.5625,532.8594 1750.4063,533.1563 1750.4063,533.4375 C1750.4063,533.7188 1750.5469,533.9688 1750.7656,534.1406 C1750.9219,534.25 1751.1094,534.2813 1751.5313,534.2813 L1753.25,534.2813 L1753.25,540.7969 L1751.5313,540.7969 C1751.0938,540.7969 1750.9688,540.8125 1750.8125,540.9219 C1750.5625,541.0781 1750.4063,541.3594 1750.4063,541.6563 C1750.4063,541.9063 1750.5469,542.1719 1750.7656,542.3281 C1750.9219,542.4531 1751.125,542.5 1751.5313,542.5 L1756.6719,542.5 C1757.4219,542.5 1757.7813,542.2188 1757.7813,541.6563 C1757.7813,541.375 1757.6719,541.125 1757.4375,540.9531 C1757.2656,540.8281 1757.125,540.7969 1756.6719,540.7969 L1754.9531,540.7969 L1754.9531,534.2813 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="110" x="1768" y="541.6543">ProductRepository</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1740" x2="1880" y1="553.5" y2="553.5"/><line style="stroke:#A80036;stroke-width:1.5;" x1="1740" x2="1880" y1="561.5" y2="561.5"/><!--MD5=[58a28f2d5507ae66b1dc95167690ce61]
+class ProductService--><rect codeLine="109" fill="#FEFECE" filter="url(#f1j5vo8bzr3hj)" height="124.8281" id="ProductService" style="stroke:#A80036;stroke-width:1.5;" width="334" x="1739" y="757.5"/><ellipse cx="1856.25" cy="773.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1858.5938,769.1719 C1857.6563,768.7344 1857.0625,768.5938 1856.1875,768.5938 C1853.5625,768.5938 1851.5625,770.6719 1851.5625,773.3906 L1851.5625,774.5156 C1851.5625,777.0938 1853.6719,778.9844 1856.5625,778.9844 C1857.7813,778.9844 1858.9375,778.6875 1859.6875,778.1406 C1860.2656,777.7344 1860.5938,777.2813 1860.5938,776.8906 C1860.5938,776.4375 1860.2031,776.0469 1859.7344,776.0469 C1859.5156,776.0469 1859.3125,776.125 1859.125,776.3125 C1858.6719,776.7969 1858.6719,776.7969 1858.4844,776.8906 C1858.0625,777.1563 1857.375,777.2813 1856.6094,777.2813 C1854.5625,777.2813 1853.2656,776.1875 1853.2656,774.4844 L1853.2656,773.3906 C1853.2656,771.6094 1854.5156,770.2969 1856.25,770.2969 C1856.8281,770.2969 1857.4375,770.4531 1857.9063,770.7031 C1858.3906,770.9844 1858.5625,771.2031 1858.6563,771.6094 C1858.7188,772.0156 1858.75,772.1406 1858.8906,772.2656 C1859.0313,772.4063 1859.2656,772.5156 1859.4844,772.5156 C1859.75,772.5156 1860.0156,772.375 1860.1875,772.1563 C1860.2969,772 1860.3281,771.8125 1860.3281,771.3906 L1860.3281,769.9688 C1860.3281,769.5313 1860.3125,769.4063 1860.2188,769.25 C1860.0625,768.9844 1859.7813,768.8438 1859.4844,768.8438 C1859.1875,768.8438 1858.9844,768.9375 1858.7656,769.25 L1858.5938,769.1719 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="91" x="1876.75" y="777.6543">ProductService</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1740" x2="2072" y1="789.5" y2="789.5"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="239" x="1745" y="803.7104">-final ProductRepository productRepository</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1740" x2="2072" y1="810.3047" y2="810.3047"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="295" x="1745" y="824.5151">+Optional&lt;ProductDto&gt; findProductDtoById(Long id)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="322" x="1745" y="837.3198">+List&lt;ProductDto&gt; findProductDtosByIds(List&lt;Long&gt; ids)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="271" x="1745" y="850.1245">+ProductDto saveOrUpdate(ProductDto product)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="149" x="1745" y="862.9292">+void deleteById(Long id)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="200" x="1745" y="875.7339">+ProductDto toDto(Product product)</text><!--MD5=[da60459599bfcabead66c448ce02a5b9]
+class ProductController--><rect codeLine="118" fill="#FEFECE" filter="url(#f1j5vo8bzr3hj)" height="112.0234" id="ProductController" style="stroke:#A80036;stroke-width:1.5;" width="295" x="1930.5" y="981"/><ellipse cx="2021.75" cy="997" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M2024.0938,992.6719 C2023.1563,992.2344 2022.5625,992.0938 2021.6875,992.0938 C2019.0625,992.0938 2017.0625,994.1719 2017.0625,996.8906 L2017.0625,998.0156 C2017.0625,1000.5938 2019.1719,1002.4844 2022.0625,1002.4844 C2023.2813,1002.4844 2024.4375,1002.1875 2025.1875,1001.6406 C2025.7656,1001.2344 2026.0938,1000.7813 2026.0938,1000.3906 C2026.0938,999.9375 2025.7031,999.5469 2025.2344,999.5469 C2025.0156,999.5469 2024.8125,999.625 2024.625,999.8125 C2024.1719,1000.2969 2024.1719,1000.2969 2023.9844,1000.3906 C2023.5625,1000.6563 2022.875,1000.7813 2022.1094,1000.7813 C2020.0625,1000.7813 2018.7656,999.6875 2018.7656,997.9844 L2018.7656,996.8906 C2018.7656,995.1094 2020.0156,993.7969 2021.75,993.7969 C2022.3281,993.7969 2022.9375,993.9531 2023.4063,994.2031 C2023.8906,994.4844 2024.0625,994.7031 2024.1563,995.1094 C2024.2188,995.5156 2024.25,995.6406 2024.3906,995.7656 C2024.5313,995.9063 2024.7656,996.0156 2024.9844,996.0156 C2025.25,996.0156 2025.5156,995.875 2025.6875,995.6563 C2025.7969,995.5 2025.8281,995.3125 2025.8281,994.8906 L2025.8281,993.4688 C2025.8281,993.0313 2025.8125,992.9063 2025.7188,992.75 C2025.5625,992.4844 2025.2813,992.3438 2024.9844,992.3438 C2024.6875,992.3438 2024.4844,992.4375 2024.2656,992.75 L2024.0938,992.6719 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="104" x="2042.25" y="1001.1543">ProductController</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1931.5" x2="2224.5" y1="1013" y2="1013"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="207" x="1936.5" y="1027.2104">-final ProductService productService</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1931.5" x2="2224.5" y1="1033.8047" y2="1033.8047"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="210" x="1936.5" y="1048.0151">+ProductDto findProductById(Long id)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="283" x="1936.5" y="1060.8198">+ProductDto saveNewProduct(ProductDto product)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="270" x="1936.5" y="1073.6245">+ProductDto updateProduct(ProductDto product)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="167" x="1936.5" y="1086.4292">+void updateProduct(Long id)</text><path d="M1750,283 L1750,323.2656 A0,0 0 0 0 1750,323.2656 L1852.91,323.2656 L1814.92,521.303 L1860.91,323.2656 L1972,323.2656 A0,0 0 0 0 1972,323.2656 L1972,293 L1962,283 L1750,283 A0,0 0 0 0 1750,283 " fill="#FBFB77" filter="url(#f1j5vo8bzr3hj)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1962,283 L1962,293 L1972,293 L1962,283 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="106" x="1756" y="300.0669">наследуется от</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="197" x="1760" y="315.1997">JpaRepository&lt;Product, Long&gt;</text><!--MD5=[a3638c1e5b65d287ecad7f06f5c0f212]
+class Role--><rect codeLine="150" fill="#FEFECE" filter="url(#f1j5vo8bzr3hj)" height="124.8281" id="Role" style="stroke:#A80036;stroke-width:1.5;" width="119" x="3520.5" y="757.5"/><ellipse cx="3562.95" cy="773.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M3565.2938,769.1719 C3564.3563,768.7344 3563.7625,768.5938 3562.8875,768.5938 C3560.2625,768.5938 3558.2625,770.6719 3558.2625,773.3906 L3558.2625,774.5156 C3558.2625,777.0938 3560.3719,778.9844 3563.2625,778.9844 C3564.4813,778.9844 3565.6375,778.6875 3566.3875,778.1406 C3566.9656,777.7344 3567.2938,777.2813 3567.2938,776.8906 C3567.2938,776.4375 3566.9031,776.0469 3566.4344,776.0469 C3566.2156,776.0469 3566.0125,776.125 3565.825,776.3125 C3565.3719,776.7969 3565.3719,776.7969 3565.1844,776.8906 C3564.7625,777.1563 3564.075,777.2813 3563.3094,777.2813 C3561.2625,777.2813 3559.9656,776.1875 3559.9656,774.4844 L3559.9656,773.3906 C3559.9656,771.6094 3561.2156,770.2969 3562.95,770.2969 C3563.5281,770.2969 3564.1375,770.4531 3564.6063,770.7031 C3565.0906,770.9844 3565.2625,771.2031 3565.3563,771.6094 C3565.4188,772.0156 3565.45,772.1406 3565.5906,772.2656 C3565.7313,772.4063 3565.9656,772.5156 3566.1844,772.5156 C3566.45,772.5156 3566.7156,772.375 3566.8875,772.1563 C3566.9969,772 3567.0281,771.8125 3567.0281,771.3906 L3567.0281,769.9688 C3567.0281,769.5313 3567.0125,769.4063 3566.9188,769.25 C3566.7625,768.9844 3566.4813,768.8438 3566.1844,768.8438 C3565.8875,768.8438 3565.6844,768.9375 3565.4656,769.25 L3565.2938,769.1719 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="26" x="3583.05" y="777.6543">Role</text><line style="stroke:#A80036;stroke-width:1.5;" x1="3521.5" x2="3638.5" y1="789.5" y2="789.5"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="59" x="3526.5" y="803.7104">-Integer id</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="74" x="3526.5" y="816.5151">-String name</text><line style="stroke:#A80036;stroke-width:1.5;" x1="3521.5" x2="3638.5" y1="823.1094" y2="823.1094"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="91" x="3526.5" y="837.3198">+Integer getId()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="73" x="3526.5" y="850.1245">+void setId()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="107" x="3526.5" y="862.9292">+String getName()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="97" x="3526.5" y="875.7339">+void setName()</text><!--MD5=[29f97d496cbdc4ec81664c6d94dc9bf6]
+class UserController--><rect codeLine="197" fill="#FEFECE" filter="url(#f1j5vo8bzr3hj)" height="137.6328" id="UserController" style="stroke:#A80036;stroke-width:1.5;" width="343" x="3061.5" y="968"/><ellipse cx="3184.75" cy="984" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M3187.0938,979.6719 C3186.1563,979.2344 3185.5625,979.0938 3184.6875,979.0938 C3182.0625,979.0938 3180.0625,981.1719 3180.0625,983.8906 L3180.0625,985.0156 C3180.0625,987.5938 3182.1719,989.4844 3185.0625,989.4844 C3186.2813,989.4844 3187.4375,989.1875 3188.1875,988.6406 C3188.7656,988.2344 3189.0938,987.7813 3189.0938,987.3906 C3189.0938,986.9375 3188.7031,986.5469 3188.2344,986.5469 C3188.0156,986.5469 3187.8125,986.625 3187.625,986.8125 C3187.1719,987.2969 3187.1719,987.2969 3186.9844,987.3906 C3186.5625,987.6563 3185.875,987.7813 3185.1094,987.7813 C3183.0625,987.7813 3181.7656,986.6875 3181.7656,984.9844 L3181.7656,983.8906 C3181.7656,982.1094 3183.0156,980.7969 3184.75,980.7969 C3185.3281,980.7969 3185.9375,980.9531 3186.4063,981.2031 C3186.8906,981.4844 3187.0625,981.7031 3187.1563,982.1094 C3187.2188,982.5156 3187.25,982.6406 3187.3906,982.7656 C3187.5313,982.9063 3187.7656,983.0156 3187.9844,983.0156 C3188.25,983.0156 3188.5156,982.875 3188.6875,982.6563 C3188.7969,982.5 3188.8281,982.3125 3188.8281,981.8906 L3188.8281,980.4688 C3188.8281,980.0313 3188.8125,979.9063 3188.7188,979.75 C3188.5625,979.4844 3188.2813,979.3438 3187.9844,979.3438 C3187.6875,979.3438 3187.4844,979.4375 3187.2656,979.75 L3187.0938,979.6719 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="88" x="3205.25" y="988.1543">UserController</text><line style="stroke:#A80036;stroke-width:1.5;" x1="3062.5" x2="3403.5" y1="1000" y2="1000"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="175" x="3067.5" y="1014.2104">-final UserService userService</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="197" x="3067.5" y="1027.0151">-final ITokenService itokenService</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="174" x="3067.5" y="1039.8198">-JdbcRepository jdbcRepository</text><line style="stroke:#A80036;stroke-width:1.5;" x1="3062.5" x2="3403.5" y1="1046.4141" y2="1046.4141"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="186" x="3067.5" y="1060.6245">+User registerUser(String email)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="331" x="3067.5" y="1073.4292">+void registerUser(SignUpRequestDto signUpRequestDto)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="296" x="3067.5" y="1086.2339">+AuthResponseDTO login(AuthRequestDto request)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="172" x="3067.5" y="1099.0386">+Boolean logout(String token)</text><!--MD5=[d6052a3c80808cdd359bffcdb3d9689b]
+class RoleRepository--><rect codeLine="183" fill="#FEFECE" filter="url(#f1j5vo8bzr3hj)" height="48" id="RoleRepository" style="stroke:#A80036;stroke-width:1.5;" width="120" x="2858" y="521.5"/><ellipse cx="2873" cy="537.5" fill="#B4A7E5" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M2873.9531,534.2813 L2875.6719,534.2813 C2876.0625,534.2813 2876.25,534.25 2876.375,534.1719 C2876.6406,534.0156 2876.7813,533.7344 2876.7813,533.4375 C2876.7813,533.1719 2876.6719,532.9063 2876.4375,532.7344 C2876.2656,532.625 2876.125,532.5938 2875.6719,532.5938 L2870.5313,532.5938 C2870.0938,532.5938 2869.9688,532.6094 2869.8125,532.7031 C2869.5625,532.8594 2869.4063,533.1563 2869.4063,533.4375 C2869.4063,533.7188 2869.5469,533.9688 2869.7656,534.1406 C2869.9219,534.25 2870.1094,534.2813 2870.5313,534.2813 L2872.25,534.2813 L2872.25,540.7969 L2870.5313,540.7969 C2870.0938,540.7969 2869.9688,540.8125 2869.8125,540.9219 C2869.5625,541.0781 2869.4063,541.3594 2869.4063,541.6563 C2869.4063,541.9063 2869.5469,542.1719 2869.7656,542.3281 C2869.9219,542.4531 2870.125,542.5 2870.5313,542.5 L2875.6719,542.5 C2876.4219,542.5 2876.7813,542.2188 2876.7813,541.6563 C2876.7813,541.375 2876.6719,541.125 2876.4375,540.9531 C2876.2656,540.8281 2876.125,540.7969 2875.6719,540.7969 L2873.9531,540.7969 L2873.9531,534.2813 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="88" x="2887" y="541.6543">RoleRepository</text><line style="stroke:#A80036;stroke-width:1.5;" x1="2859" x2="2977" y1="553.5" y2="553.5"/><line style="stroke:#A80036;stroke-width:1.5;" x1="2859" x2="2977" y1="561.5" y2="561.5"/><!--MD5=[e4ac4745f81aec2db60ad4ddae80b659]
+class UserService--><rect codeLine="189" fill="#FEFECE" filter="url(#f1j5vo8bzr3hj)" height="112.0234" id="UserService" style="stroke:#A80036;stroke-width:1.5;" width="365" x="2588.5" y="764"/><ellipse cx="2729.25" cy="780" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M2731.5938,775.6719 C2730.6563,775.2344 2730.0625,775.0938 2729.1875,775.0938 C2726.5625,775.0938 2724.5625,777.1719 2724.5625,779.8906 L2724.5625,781.0156 C2724.5625,783.5938 2726.6719,785.4844 2729.5625,785.4844 C2730.7813,785.4844 2731.9375,785.1875 2732.6875,784.6406 C2733.2656,784.2344 2733.5938,783.7813 2733.5938,783.3906 C2733.5938,782.9375 2733.2031,782.5469 2732.7344,782.5469 C2732.5156,782.5469 2732.3125,782.625 2732.125,782.8125 C2731.6719,783.2969 2731.6719,783.2969 2731.4844,783.3906 C2731.0625,783.6563 2730.375,783.7813 2729.6094,783.7813 C2727.5625,783.7813 2726.2656,782.6875 2726.2656,780.9844 L2726.2656,779.8906 C2726.2656,778.1094 2727.5156,776.7969 2729.25,776.7969 C2729.8281,776.7969 2730.4375,776.9531 2730.9063,777.2031 C2731.3906,777.4844 2731.5625,777.7031 2731.6563,778.1094 C2731.7188,778.5156 2731.75,778.6406 2731.8906,778.7656 C2732.0313,778.9063 2732.2656,779.0156 2732.4844,779.0156 C2732.75,779.0156 2733.0156,778.875 2733.1875,778.6563 C2733.2969,778.5 2733.3281,778.3125 2733.3281,777.8906 L2733.3281,776.4688 C2733.3281,776.0313 2733.3125,775.9063 2733.2188,775.75 C2733.0625,775.4844 2732.7813,775.3438 2732.4844,775.3438 C2732.1875,775.3438 2731.9844,775.4375 2731.7656,775.75 L2731.5938,775.6719 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="75" x="2749.75" y="784.1543">UserService</text><line style="stroke:#A80036;stroke-width:1.5;" x1="2589.5" x2="2952.5" y1="796" y2="796"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="179" x="2594.5" y="810.2104">-UserRepository userRepository</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="175" x="2594.5" y="823.0151">-RoleRepository roleRepository</text><line style="stroke:#A80036;stroke-width:1.5;" x1="2589.5" x2="2952.5" y1="829.6094" y2="829.6094"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="156" x="2594.5" y="843.8198">+User saveUser(User user)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="183" x="2594.5" y="856.6245">+User findByEmail(String email)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="353" x="2594.5" y="869.4292">+User findByLoginAndPassword(String email, String password)</text><!--MD5=[093c210125347143eef5bb9199eae634]
+class UserRepository--><rect codeLine="186" fill="#FEFECE" filter="url(#f1j5vo8bzr3hj)" height="48" id="UserRepository" style="stroke:#A80036;stroke-width:1.5;" width="122" x="2687" y="521.5"/><ellipse cx="2702" cy="537.5" fill="#B4A7E5" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M2702.9531,534.2813 L2704.6719,534.2813 C2705.0625,534.2813 2705.25,534.25 2705.375,534.1719 C2705.6406,534.0156 2705.7813,533.7344 2705.7813,533.4375 C2705.7813,533.1719 2705.6719,532.9063 2705.4375,532.7344 C2705.2656,532.625 2705.125,532.5938 2704.6719,532.5938 L2699.5313,532.5938 C2699.0938,532.5938 2698.9688,532.6094 2698.8125,532.7031 C2698.5625,532.8594 2698.4063,533.1563 2698.4063,533.4375 C2698.4063,533.7188 2698.5469,533.9688 2698.7656,534.1406 C2698.9219,534.25 2699.1094,534.2813 2699.5313,534.2813 L2701.25,534.2813 L2701.25,540.7969 L2699.5313,540.7969 C2699.0938,540.7969 2698.9688,540.8125 2698.8125,540.9219 C2698.5625,541.0781 2698.4063,541.3594 2698.4063,541.6563 C2698.4063,541.9063 2698.5469,542.1719 2698.7656,542.3281 C2698.9219,542.4531 2699.125,542.5 2699.5313,542.5 L2704.6719,542.5 C2705.4219,542.5 2705.7813,542.2188 2705.7813,541.6563 C2705.7813,541.375 2705.6719,541.125 2705.4375,540.9531 C2705.2656,540.8281 2705.125,540.7969 2704.6719,540.7969 L2702.9531,540.7969 L2702.9531,534.2813 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="90" x="2716" y="541.6543">UserRepository</text><line style="stroke:#A80036;stroke-width:1.5;" x1="2688" x2="2808" y1="553.5" y2="553.5"/><line style="stroke:#A80036;stroke-width:1.5;" x1="2688" x2="2808" y1="561.5" y2="561.5"/><!--MD5=[65fcef21f2f0af57ab52a095a5f585a8]
+class AuthRequestDto--><rect codeLine="159" fill="#FEFECE" filter="url(#f1j5vo8bzr3hj)" height="124.8281" id="AuthRequestDto" style="stroke:#A80036;stroke-width:1.5;" width="137" x="2988.5" y="757.5"/><ellipse cx="3007.55" cy="773.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M3009.8938,769.1719 C3008.9563,768.7344 3008.3625,768.5938 3007.4875,768.5938 C3004.8625,768.5938 3002.8625,770.6719 3002.8625,773.3906 L3002.8625,774.5156 C3002.8625,777.0938 3004.9719,778.9844 3007.8625,778.9844 C3009.0813,778.9844 3010.2375,778.6875 3010.9875,778.1406 C3011.5656,777.7344 3011.8938,777.2813 3011.8938,776.8906 C3011.8938,776.4375 3011.5031,776.0469 3011.0344,776.0469 C3010.8156,776.0469 3010.6125,776.125 3010.425,776.3125 C3009.9719,776.7969 3009.9719,776.7969 3009.7844,776.8906 C3009.3625,777.1563 3008.675,777.2813 3007.9094,777.2813 C3005.8625,777.2813 3004.5656,776.1875 3004.5656,774.4844 L3004.5656,773.3906 C3004.5656,771.6094 3005.8156,770.2969 3007.55,770.2969 C3008.1281,770.2969 3008.7375,770.4531 3009.2063,770.7031 C3009.6906,770.9844 3009.8625,771.2031 3009.9563,771.6094 C3010.0188,772.0156 3010.05,772.1406 3010.1906,772.2656 C3010.3313,772.4063 3010.5656,772.5156 3010.7844,772.5156 C3011.05,772.5156 3011.3156,772.375 3011.4875,772.1563 C3011.5969,772 3011.6281,771.8125 3011.6281,771.3906 L3011.6281,769.9688 C3011.6281,769.5313 3011.6125,769.4063 3011.5188,769.25 C3011.3625,768.9844 3011.0813,768.8438 3010.7844,768.8438 C3010.4875,768.8438 3010.2844,768.9375 3010.0656,769.25 L3009.8938,769.1719 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="96" x="3022.45" y="777.6543">AuthRequestDto</text><line style="stroke:#A80036;stroke-width:1.5;" x1="2989.5" x2="3124.5" y1="789.5" y2="789.5"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="73" x="2994.5" y="803.7104">-String email</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="94" x="2994.5" y="816.5151">-String password</text><line style="stroke:#A80036;stroke-width:1.5;" x1="2989.5" x2="3124.5" y1="823.1094" y2="823.1094"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="104" x="2994.5" y="837.3198">+String getEmail()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="94" x="2994.5" y="850.1245">+void setEmail()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="125" x="2994.5" y="862.9292">+String getPassword()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="124" x="2994.5" y="875.7339">+String setPassword()</text><!--MD5=[546a4e9628b843b42c1d02f38bbe7e48]
+class SignUpRequestDto--><rect codeLine="168" fill="#FEFECE" filter="url(#f1j5vo8bzr3hj)" height="124.8281" id="SignUpRequestDto" style="stroke:#A80036;stroke-width:1.5;" width="145" x="3160.5" y="757.5"/><ellipse cx="3175.5" cy="773.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M3177.8438,769.1719 C3176.9063,768.7344 3176.3125,768.5938 3175.4375,768.5938 C3172.8125,768.5938 3170.8125,770.6719 3170.8125,773.3906 L3170.8125,774.5156 C3170.8125,777.0938 3172.9219,778.9844 3175.8125,778.9844 C3177.0313,778.9844 3178.1875,778.6875 3178.9375,778.1406 C3179.5156,777.7344 3179.8438,777.2813 3179.8438,776.8906 C3179.8438,776.4375 3179.4531,776.0469 3178.9844,776.0469 C3178.7656,776.0469 3178.5625,776.125 3178.375,776.3125 C3177.9219,776.7969 3177.9219,776.7969 3177.7344,776.8906 C3177.3125,777.1563 3176.625,777.2813 3175.8594,777.2813 C3173.8125,777.2813 3172.5156,776.1875 3172.5156,774.4844 L3172.5156,773.3906 C3172.5156,771.6094 3173.7656,770.2969 3175.5,770.2969 C3176.0781,770.2969 3176.6875,770.4531 3177.1563,770.7031 C3177.6406,770.9844 3177.8125,771.2031 3177.9063,771.6094 C3177.9688,772.0156 3178,772.1406 3178.1406,772.2656 C3178.2813,772.4063 3178.5156,772.5156 3178.7344,772.5156 C3179,772.5156 3179.2656,772.375 3179.4375,772.1563 C3179.5469,772 3179.5781,771.8125 3179.5781,771.3906 L3179.5781,769.9688 C3179.5781,769.5313 3179.5625,769.4063 3179.4688,769.25 C3179.3125,768.9844 3179.0313,768.8438 3178.7344,768.8438 C3178.4375,768.8438 3178.2344,768.9375 3178.0156,769.25 L3177.8438,769.1719 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="113" x="3189.5" y="777.6543">SignUpRequestDto</text><line style="stroke:#A80036;stroke-width:1.5;" x1="3161.5" x2="3304.5" y1="789.5" y2="789.5"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="73" x="3166.5" y="803.7104">-String email</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="94" x="3166.5" y="816.5151">-String password</text><line style="stroke:#A80036;stroke-width:1.5;" x1="3161.5" x2="3304.5" y1="823.1094" y2="823.1094"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="104" x="3166.5" y="837.3198">+String getEmail()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="94" x="3166.5" y="850.1245">+void setEmail()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="125" x="3166.5" y="862.9292">+String getPassword()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="124" x="3166.5" y="875.7339">+String setPassword()</text><!--MD5=[08660dac60fb479d86fc6fbb1f2391c7]
+class AuthResponseDTO--><rect codeLine="177" fill="#FEFECE" filter="url(#f1j5vo8bzr3hj)" height="86.4141" id="AuthResponseDTO" style="stroke:#A80036;stroke-width:1.5;" width="144" x="3341" y="777"/><ellipse cx="3356" cy="793" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M3358.3438,788.6719 C3357.4063,788.2344 3356.8125,788.0938 3355.9375,788.0938 C3353.3125,788.0938 3351.3125,790.1719 3351.3125,792.8906 L3351.3125,794.0156 C3351.3125,796.5938 3353.4219,798.4844 3356.3125,798.4844 C3357.5313,798.4844 3358.6875,798.1875 3359.4375,797.6406 C3360.0156,797.2344 3360.3438,796.7813 3360.3438,796.3906 C3360.3438,795.9375 3359.9531,795.5469 3359.4844,795.5469 C3359.2656,795.5469 3359.0625,795.625 3358.875,795.8125 C3358.4219,796.2969 3358.4219,796.2969 3358.2344,796.3906 C3357.8125,796.6563 3357.125,796.7813 3356.3594,796.7813 C3354.3125,796.7813 3353.0156,795.6875 3353.0156,793.9844 L3353.0156,792.8906 C3353.0156,791.1094 3354.2656,789.7969 3356,789.7969 C3356.5781,789.7969 3357.1875,789.9531 3357.6563,790.2031 C3358.1406,790.4844 3358.3125,790.7031 3358.4063,791.1094 C3358.4688,791.5156 3358.5,791.6406 3358.6406,791.7656 C3358.7813,791.9063 3359.0156,792.0156 3359.2344,792.0156 C3359.5,792.0156 3359.7656,791.875 3359.9375,791.6563 C3360.0469,791.5 3360.0781,791.3125 3360.0781,790.8906 L3360.0781,789.4688 C3360.0781,789.0313 3360.0625,788.9063 3359.9688,788.75 C3359.8125,788.4844 3359.5313,788.3438 3359.2344,788.3438 C3358.9375,788.3438 3358.7344,788.4375 3358.5156,788.75 L3358.3438,788.6719 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="112" x="3370" y="797.1543">AuthResponseDTO</text><line style="stroke:#A80036;stroke-width:1.5;" x1="3342" x2="3484" y1="809" y2="809"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="73" x="3347" y="823.2104">-String token</text><line style="stroke:#A80036;stroke-width:1.5;" x1="3342" x2="3484" y1="829.8047" y2="829.8047"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="108" x="3347" y="844.0151">+String getToken()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="98" x="3347" y="856.8198">+void setToken()</text><!--MD5=[3fd616f346a44cd59a91eb10b19e157c]
+class User--><rect codeLine="138" fill="#FEFECE" filter="url(#f1j5vo8bzr3hj)" height="163.2422" id="User" style="stroke:#A80036;stroke-width:1.5;" width="137" x="3028.5" y="464"/><ellipse cx="3078.25" cy="480" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M3080.5938,475.6719 C3079.6563,475.2344 3079.0625,475.0938 3078.1875,475.0938 C3075.5625,475.0938 3073.5625,477.1719 3073.5625,479.8906 L3073.5625,481.0156 C3073.5625,483.5938 3075.6719,485.4844 3078.5625,485.4844 C3079.7813,485.4844 3080.9375,485.1875 3081.6875,484.6406 C3082.2656,484.2344 3082.5938,483.7813 3082.5938,483.3906 C3082.5938,482.9375 3082.2031,482.5469 3081.7344,482.5469 C3081.5156,482.5469 3081.3125,482.625 3081.125,482.8125 C3080.6719,483.2969 3080.6719,483.2969 3080.4844,483.3906 C3080.0625,483.6563 3079.375,483.7813 3078.6094,483.7813 C3076.5625,483.7813 3075.2656,482.6875 3075.2656,480.9844 L3075.2656,479.8906 C3075.2656,478.1094 3076.5156,476.7969 3078.25,476.7969 C3078.8281,476.7969 3079.4375,476.9531 3079.9063,477.2031 C3080.3906,477.4844 3080.5625,477.7031 3080.6563,478.1094 C3080.7188,478.5156 3080.75,478.6406 3080.8906,478.7656 C3081.0313,478.9063 3081.2656,479.0156 3081.4844,479.0156 C3081.75,479.0156 3082.0156,478.875 3082.1875,478.6563 C3082.2969,478.5 3082.3281,478.3125 3082.3281,477.8906 L3082.3281,476.4688 C3082.3281,476.0313 3082.3125,475.9063 3082.2188,475.75 C3082.0625,475.4844 3081.7813,475.3438 3081.4844,475.3438 C3081.1875,475.3438 3080.9844,475.4375 3080.7656,475.75 L3080.5938,475.6719 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="29" x="3098.75" y="484.1543">User</text><line style="stroke:#A80036;stroke-width:1.5;" x1="3029.5" x2="3164.5" y1="496" y2="496"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="45" x="3034.5" y="510.2104">-Long id</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="73" x="3034.5" y="523.0151">-String email</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="94" x="3034.5" y="535.8198">-String password</text><line style="stroke:#A80036;stroke-width:1.5;" x1="3029.5" x2="3164.5" y1="542.4141" y2="542.4141"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="77" x="3034.5" y="556.6245">+Long getId()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="73" x="3034.5" y="569.4292">+void setId()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="104" x="3034.5" y="582.2339">+String getEmail()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="94" x="3034.5" y="595.0386">+void setEmail()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="125" x="3034.5" y="607.8433">+String getPassword()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="115" x="3034.5" y="620.6479">+void setPassword()</text><path d="M2864.5,283 L2864.5,323.2656 A0,0 0 0 0 2864.5,323.2656 L2963.67,323.2656 L2923.21,521.303 L2971.67,323.2656 L3079.5,323.2656 A0,0 0 0 0 3079.5,323.2656 L3079.5,293 L3069.5,283 L2864.5,283 A0,0 0 0 0 2864.5,283 " fill="#FBFB77" filter="url(#f1j5vo8bzr3hj)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M3069.5,283 L3069.5,293 L3079.5,293 L3069.5,283 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="106" x="2870.5" y="300.0669">наследуется от</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="190" x="2874.5" y="315.1997">JpaRepository&lt;Role, Integer&gt;</text><path d="M2613,283 L2613,323.2656 A0,0 0 0 0 2613,323.2656 L2719.16,323.2656 L2745.4,521.303 L2727.16,323.2656 L2829,323.2656 A0,0 0 0 0 2829,323.2656 L2829,293 L2819,283 L2613,283 A0,0 0 0 0 2613,283 " fill="#FBFB77" filter="url(#f1j5vo8bzr3hj)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M2819,283 L2819,293 L2829,293 L2819,283 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="106" x="2619" y="300.0669">наследуется от</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="191" x="2623" y="315.1997">JpaRepository&lt;User, Integer&gt;</text><!--MD5=[c68479a16028f0969b53a84ae4d0bab7]
+reverse link core-lib to user--><path codeLine="3" d="M1667.5939,119.1261 C1667.924,119.1316 1668.2632,119.1372 1668.6115,119.1431 C1674.1831,119.2368 1682.0666,119.3829 1691.974,119.6009 C1711.7889,120.0368 1739.6993,120.7598 1773.4017,121.9245 C1840.8066,124.2541 1931.3794,128.3506 2026.6913,135.4513 C2217.315,149.6525 2426.895,175.87 2508,224 C2525.775,234.5495 2539.47,253.1795 2548.8663,269.5869 C2551.2153,273.6887 2553.2957,277.6516 2555.104,281.3147 C2555.33,281.7726 2555.5518,282.2257 2555.7694,282.6739 C2555.8237,282.786 2555.8779,282.8977 2555.9317,283.0091 " fill="none" id="core-lib-backto-user" style="stroke:#A80036;stroke-width:1.0;"/><ellipse cx="1675.5928" cy="119.2582" fill="#FFFFFF" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1683.5918" x2="1667.5939" y1="119.3903" y2="119.1261"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1675.4607" x2="1675.7249" y1="127.2571" y2="111.2593"/><!--MD5=[c867dc620d1856c873ae79f10594a496]
+reverse link core-lib to product--><path codeLine="4" d="M1667.0643,145.3523 C1667.1414,145.6042 1667.2189,145.8575 1667.2968,146.1122 C1667.6085,147.1308 1667.9269,148.171 1668.2514,149.2316 C1673.4441,166.1999 1680.2281,188.3685 1687.0113,210.5342 C1693.7944,232.7 1700.5766,254.8629 1705.7655,271.8201 C1706.0898,272.8799 1706.4079,273.9194 1706.7193,274.9372 C1706.7972,275.1917 1706.8747,275.4448 1706.9517,275.6966 " fill="none" id="core-lib-backto-product" style="stroke:#A80036;stroke-width:1.0;"/><ellipse cx="1669.4053" cy="153.0021" fill="#FFFFFF" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1671.7463" x2="1667.0643" y1="160.6519" y2="145.3523"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1661.7554" x2="1677.0551" y1="155.3431" y2="150.6611"/><!--MD5=[faa92b4bc313ff2070e19a18e02b4171]
+link RedisRepository to JWTAuthenticationFilter--><path codeLine="8" d="M611.717,161.011 C637.414,170.344 664.989,179.638 691,187 C706.169,191.294 842.474,218.869 977.86,245.939 " fill="none" id="RedisRepository-to-JWTAuthenticationFilter" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="983.082,246.983,975.0406,241.2965,978.179,246.003,973.4726,249.1414,983.082,246.983" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[8405d9e21d6fe32ff2db778c32e01b93]
+link RedisRepository to RedisConfiguration--><path codeLine="9" d="M505.304,161.444 C504.892,186.562 504.366,218.682 503.92,245.875 " fill="none" id="RedisRepository-to-RedisConfiguration" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="510.918,246.072,503.591,265.954,496.92,245.842,510.918,246.072" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[a255fac2172faaf054c4241506d8ba27]
+link UserInfo to JWTTokenService--><path codeLine="10" d="M82.1318,187.256 C72.7613,198.496 64.6035,210.822 59,224 C35.522,279.216 41.6845,301.553 59,359 C74.806,411.439 110.815,462.675 139.81,497.965 " fill="none" id="UserInfo-to-JWTTokenService" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="143.309,502.189,140.6487,492.7062,140.1196,498.3383,134.4876,497.8093,143.309,502.189" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[140d6a208d314e4c4c9a99846097a98a]
+link ITokenService to JWTTokenService--><path codeLine="11" d="M194.262,360.187 C191.832,396.718 188.66,444.389 186.152,482.097 " fill="none" id="ITokenService-JWTTokenService" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="193.129,482.67,184.817,502.162,179.16,481.741,193.129,482.67" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="187.292,359.496,195.605,340.005,201.261,360.426,187.292,359.496" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[d3d2ff4789e514aa13cf4c9a58bf1ce0]
+link UserInfo to ITokenService--><path codeLine="12" d="M179.171,187.142 C183.227,211.885 187.684,239.07 191.242,260.778 " fill="none" id="UserInfo-to-ITokenService" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="192.08,265.889,194.572,256.3606,191.2714,260.9548,186.6772,257.6543,192.08,265.889" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[5ec5b2887806c410e8388c815fdcabbe]
+link Product to ProductDto--><path codeLine="69" d="M2225.71,672.381 C2228.85,690.579 2232.03,709.026 2235.03,726.412 " fill="none" id="Product-to-ProductDto" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="2235.96,731.772,2238.3722,722.2231,2235.1102,726.8447,2230.4886,723.5828,2235.96,731.772" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[f080472a20598ae67bd612e72a51c98c]
+link ProductRepository to ProductService--><path codeLine="70" d="M1824.86,588.672 C1838.88,628.486 1860.29,689.241 1877.59,738.358 " fill="none" id="ProductRepository-ProductService" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="1884.19,736.037,1884.24,757.227,1870.99,740.689,1884.19,736.037" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="1818.23,590.923,1818.18,569.733,1831.43,586.271,1818.23,590.923" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[f01f091c311d8f0768df59fa02fa8736]
+link ProductService to ProductController--><path codeLine="71" d="M1967.86,898.326 C1985.3,920.12 2004.17,943.714 2021.29,965.111 " fill="none" id="ProductService-ProductController" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="2026.96,960.989,2033.98,980.979,2016.02,969.734,2026.96,960.989" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="1962.32,902.601,1955.29,882.61,1973.25,893.855,1962.32,902.601" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[96679e2fc285a73521b8d814a83f350c]
+link ProductDto to ProductController--><path codeLine="72" d="M2180.88,908.139 C2165.68,927.039 2149.77,946.811 2135.13,965.001 " fill="none" id="ProductDto-to-ProductController" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="2140.37,969.658,2122.37,980.852,2129.46,960.882,2140.37,969.658" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[59f59ae3f781023b8bdedf9fdfbe2bab]
+link Role to UserController--><path codeLine="128" d="M3531.15,882.668 C3522.36,891.799 3512.84,900.608 3503,908 C3474.25,929.611 3441.26,948.906 3408.44,965.553 " fill="none" id="Role-to-UserController" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="3403.6,967.99,3413.4367,967.5001,3408.0624,965.7345,3409.8279,960.3603,3403.6,967.99" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[f3b6f512287b02d2656d207698f02b7b]
+link RoleRepository to UserService--><path codeLine="129" d="M2895.85,587.568 C2873.23,629.483 2837.67,695.414 2810.27,746.202 " fill="none" id="RoleRepository-UserService" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="2816.43,749.533,2800.77,763.812,2804.11,742.886,2816.43,749.533" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="2889.81,584.012,2905.47,569.733,2902.13,590.659,2889.81,584.012" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[dacb45ace773f61abb74fd7e5151049b]
+link UserRepository to UserService--><path codeLine="130" d="M2751.65,589.786 C2755.14,631.125 2760.47,694.29 2764.66,743.851 " fill="none" id="UserRepository-UserService" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="2771.63,743.294,2766.34,763.812,2757.68,744.472,2771.63,743.294" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="2744.67,590.251,2749.96,569.733,2758.62,589.074,2744.67,590.251" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[69721906e9f0ab58919b254ba45a00f2]
+link UserService to UserController--><path codeLine="131" d="M2907.73,884.63 C2958.16,908.097 3015.82,934.931 3068.45,959.424 " fill="none" id="UserService-UserController" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="3071.66,953.195,3086.84,967.98,3065.75,965.888,3071.66,953.195" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="2904.56,890.874,2889.38,876.089,2910.46,878.181,2904.56,890.874" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[c05ee7cd9eb0caa68401bdbd39d66f72]
+link AuthRequestDto to UserController--><path codeLine="132" d="M3107.43,882.61 C3128.25,908.038 3152.52,937.683 3174.14,964.097 " fill="none" id="AuthRequestDto-to-UserController" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="3177.31,967.969,3174.7073,958.4703,3174.144,964.099,3168.5153,963.5358,3177.31,967.969" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[05703ec9304f4572ae44a7586942c7ba]
+link SignUpRequestDto to UserController--><path codeLine="133" d="M3233,882.61 C3233,907.621 3233,936.713 3233,962.795 " fill="none" id="SignUpRequestDto-to-UserController" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="3233,967.969,3237,958.969,3233,962.969,3229,958.969,3233,967.969" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[d28d3f10075a1c95e1c22fe915e50ee0]
+link AuthResponseDTO to UserController--><path codeLine="134" d="M3377.65,863.221 C3353.75,891.777 3321.56,930.224 3293.61,963.6 " fill="none" id="AuthResponseDTO-to-UserController" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="3290.23,967.644,3299.0776,963.3173,3293.4424,963.8125,3292.9472,958.1774,3290.23,967.644" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[99d039154ba1c5a6f4860d20a6003e28]
+link User to AuthRequestDto--><path codeLine="135" d="M3085.16,627.153 C3079.32,666.955 3072.35,714.398 3066.81,752.146 " fill="none" id="User-to-AuthRequestDto" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="3066.08,757.17,3071.3449,748.8465,3066.8063,752.223,3063.4298,747.6844,3066.08,757.17" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[e41c96297d63ae2f7595d343791cd660]
+link User to SignUpRequestDto--><path codeLine="136" d="M3137.25,627.153 C3157.2,667.118 3180.99,714.785 3199.86,752.608 " fill="none" id="User-to-SignUpRequestDto" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="3202.14,757.17,3201.6978,747.3311,3199.9062,752.6967,3194.5406,750.9051,3202.14,757.17" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[fbb9bde791300bd91a65944018a803ed]
+@startuml
+'https://plantuml.com/class-diagram
+skinparam classAttributeIconSize 0
+"core-lib" +- - "user"
+"core-lib" +- - "product"
+
+package "core-lib" #DDDDDD {
+
+    RedisRepository - -> JWTAuthenticationFilter
+    RedisRepository ..|> RedisConfiguration
+    UserInfo - -> JWTTokenService
+    ITokenService <|..|> JWTTokenService
+    UserInfo - -> ITokenService
+
+    Class UserInfo {
+        - Long userId
+        - String userEmail
+        - List<String> role
+        + Long getUserId()
+        + String getUserEmail()
+        + List<String> getRole()
+        + void setRole(List<String> role)
+    }
+
+    Class SecurityConfig {
+        - final JWTAuthenticationFilter filter
+        + void configure(HttpSecurity http)
+        + PasswordEncoder passwordEncoder()
+    }
+    note right: наследуется от \n WebSecurityConfigurerAdapter
+
+    Class RedisConfiguration {
+        + JedisConnectionFactory jedisConnectionFactory()
+        + RedisTemplate<String, Object> redisTemplate()
+    }
+
+    Class JWTAuthenticationFilter {
+        - final ITokenService tokenService
+        - final RedisRepository redisRepository
+        # void doFilterInternal(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, FilterChain filterChain)
+        - boolean authorizationHeaderIsInvalid(String authorizationHeader)
+        - private UsernamePasswordAuthenticationToken createToken(String authorizationHeader)
+    }
+    note left: наследуется от \n OncePerRequestFilter
+
+    Class RedisRepository {
+        - final RedisTemplate<String, Object> redisTemplate
+        + void saveToken(String token)
+        +  boolean checkToken(String token)
+    }
+
+
+    interface ITokenService {
+        String generateToken(UserInfo userInfo)
+        UserInfo parseToken(String token)
+    }
+
+    Class JWTTokenService {
+        - String JWT_SECRET
+        + String generateToken(UserInfo userInfo)
+        + UserInfo parseToken(String token)
+    }
+
+    Class ResourceNotFoundException
+        note right: наследуется от\n RuntimeException
+    }
+
+package "product" #DDDDDD {
+
+    Product- ->ProductDto
+    ProductRepository <|..|> ProductService
+    ProductService <|..|> ProductController
+    ProductDto ..|> ProductController
+
+  Class Product {
+    - Long id
+    - String title
+    - Doble cost
+    - LocalDateTime createdAt
+    - LocalDateTime updatedAt
+    + void setId(Long id)
+    + Long getId()
+    + void setTitle(String title)
+    + String getTitle()
+    + void setCost(Double cost)
+    + Doble getCost()
+    + void setCreatedAt(LocalDateTime createdAt)
+    + LocalDateTime getCreated()
+    + void setUpdatedAt(LocalDateTime updatedAt)
+    + LocalDateTime getUpdatedAt()
+    + Product(Long id, String title, Double cost, LocalDateTime createdAt, LocalDateTime updatedAt){}
+  }
+
+  Class ProductDto{
+    - Long id
+    - String title
+    - Doble cost
+    + void setId(Long id)
+    + Long getId()
+    + void setTitle(String title)
+    + String getTitle()
+    + void setCost(Double cost)
+    + Doble getCost()
+    + ProductDto(Long id, String title, Double cost){}
+  }
+
+  interface ProductRepository
+      note top: наследуется от\n JpaRepository<Product, Long>
+
+  Class ProductService{
+      - final ProductRepository productRepository
+      + Optional<ProductDto> findProductDtoById(Long id)
+      + List<ProductDto> findProductDtosByIds(List<Long> ids)
+      + ProductDto saveOrUpdate(ProductDto product)
+      + void deleteById(Long id)
+      + ProductDto toDto(Product product)
+  }
+
+  Class ProductController{
+    - final ProductService productService
+    + ProductDto findProductById(Long id)
+    + ProductDto saveNewProduct(ProductDto product)
+    + ProductDto updateProduct(ProductDto product)
+    + void updateProduct(Long id)
+    }
+  }
+
+package "user" #DDDDDD {
+  Role ..> UserController
+  RoleRepository <|..|> UserService
+  UserRepository <|..|> UserService
+  UserService<|..|> UserController
+  AuthRequestDto ..> UserController
+  SignUpRequestDto ..> UserController
+  AuthResponseDTO ..> UserController
+  User - -> AuthRequestDto
+  User - -> SignUpRequestDto
+
+    Class User {
+        - Long id
+        - String email
+        - String password
+        + Long getId()
+        + void setId()
+        + String getEmail()
+        + void setEmail()
+        + String getPassword()
+        + void setPassword()
+    }
+
+    Class Role {
+        - Integer id
+        - String name
+        + Integer getId()
+        + void setId()
+        + String getName()
+        + void setName()
+    }
+
+    Class AuthRequestDto {
+        - String email
+        - String password
+        + String getEmail()
+        + void setEmail()
+        + String getPassword()
+        + String setPassword()
+    }
+
+    Class SignUpRequestDto {
+        - String email
+        - String password
+        + String getEmail()
+        + void setEmail()
+        + String getPassword()
+        + String setPassword()
+    }
+
+    Class AuthResponseDTO {
+        - String token
+        + String getToken()
+        + void setToken()
+    }
+
+    interface RoleRepository
+          note top: наследуется от\n JpaRepository<Role, Integer>
+
+    interface UserRepository
+        note top: наследуется от\n JpaRepository<User, Integer>
+
+    Class UserService {
+        - UserRepository userRepository
+        - RoleRepository roleRepository
+        + User saveUser(User user)
+        + User findByEmail(String email)
+        + User findByLoginAndPassword(String email, String password)
+    }
+
+    Class UserController {
+        - final UserService userService
+        - final ITokenService itokenService
+        - JdbcRepository jdbcRepository
+        + User registerUser(String email)
+        + void registerUser(SignUpRequestDto signUpRequestDto)
+        + AuthResponseDTO login(AuthRequestDto request)
+        + Boolean logout(String token)
+    }
+  }
+@enduml
+
+@startuml
+skinparam classAttributeIconSize 0
+"core-lib" +- - "user"
+"core-lib" +- - "product"
+
+package "core-lib" #DDDDDD {
+
+    RedisRepository - -> JWTAuthenticationFilter
+    RedisRepository ..|> RedisConfiguration
+    UserInfo - -> JWTTokenService
+    ITokenService <|..|> JWTTokenService
+    UserInfo - -> ITokenService
+
+    Class UserInfo {
+        - Long userId
+        - String userEmail
+        - List<String> role
+        + Long getUserId()
+        + String getUserEmail()
+        + List<String> getRole()
+        + void setRole(List<String> role)
+    }
+
+    Class SecurityConfig {
+        - final JWTAuthenticationFilter filter
+        + void configure(HttpSecurity http)
+        + PasswordEncoder passwordEncoder()
+    }
+    note right: наследуется от \n WebSecurityConfigurerAdapter
+
+    Class RedisConfiguration {
+        + JedisConnectionFactory jedisConnectionFactory()
+        + RedisTemplate<String, Object> redisTemplate()
+    }
+
+    Class JWTAuthenticationFilter {
+        - final ITokenService tokenService
+        - final RedisRepository redisRepository
+        # void doFilterInternal(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, FilterChain filterChain)
+        - boolean authorizationHeaderIsInvalid(String authorizationHeader)
+        - private UsernamePasswordAuthenticationToken createToken(String authorizationHeader)
+    }
+    note left: наследуется от \n OncePerRequestFilter
+
+    Class RedisRepository {
+        - final RedisTemplate<String, Object> redisTemplate
+        + void saveToken(String token)
+        +  boolean checkToken(String token)
+    }
+
+
+    interface ITokenService {
+        String generateToken(UserInfo userInfo)
+        UserInfo parseToken(String token)
+    }
+
+    Class JWTTokenService {
+        - String JWT_SECRET
+        + String generateToken(UserInfo userInfo)
+        + UserInfo parseToken(String token)
+    }
+
+    Class ResourceNotFoundException
+        note right: наследуется от\n RuntimeException
+    }
+
+package "product" #DDDDDD {
+
+    Product- ->ProductDto
+    ProductRepository <|..|> ProductService
+    ProductService <|..|> ProductController
+    ProductDto ..|> ProductController
+
+  Class Product {
+    - Long id
+    - String title
+    - Doble cost
+    - LocalDateTime createdAt
+    - LocalDateTime updatedAt
+    + void setId(Long id)
+    + Long getId()
+    + void setTitle(String title)
+    + String getTitle()
+    + void setCost(Double cost)
+    + Doble getCost()
+    + void setCreatedAt(LocalDateTime createdAt)
+    + LocalDateTime getCreated()
+    + void setUpdatedAt(LocalDateTime updatedAt)
+    + LocalDateTime getUpdatedAt()
+    + Product(Long id, String title, Double cost, LocalDateTime createdAt, LocalDateTime updatedAt){}
+  }
+
+  Class ProductDto{
+    - Long id
+    - String title
+    - Doble cost
+    + void setId(Long id)
+    + Long getId()
+    + void setTitle(String title)
+    + String getTitle()
+    + void setCost(Double cost)
+    + Doble getCost()
+    + ProductDto(Long id, String title, Double cost){}
+  }
+
+  interface ProductRepository
+      note top: наследуется от\n JpaRepository<Product, Long>
+
+  Class ProductService{
+      - final ProductRepository productRepository
+      + Optional<ProductDto> findProductDtoById(Long id)
+      + List<ProductDto> findProductDtosByIds(List<Long> ids)
+      + ProductDto saveOrUpdate(ProductDto product)
+      + void deleteById(Long id)
+      + ProductDto toDto(Product product)
+  }
+
+  Class ProductController{
+    - final ProductService productService
+    + ProductDto findProductById(Long id)
+    + ProductDto saveNewProduct(ProductDto product)
+    + ProductDto updateProduct(ProductDto product)
+    + void updateProduct(Long id)
+    }
+  }
+
+package "user" #DDDDDD {
+  Role ..> UserController
+  RoleRepository <|..|> UserService
+  UserRepository <|..|> UserService
+  UserService<|..|> UserController
+  AuthRequestDto ..> UserController
+  SignUpRequestDto ..> UserController
+  AuthResponseDTO ..> UserController
+  User - -> AuthRequestDto
+  User - -> SignUpRequestDto
+
+    Class User {
+        - Long id
+        - String email
+        - String password
+        + Long getId()
+        + void setId()
+        + String getEmail()
+        + void setEmail()
+        + String getPassword()
+        + void setPassword()
+    }
+
+    Class Role {
+        - Integer id
+        - String name
+        + Integer getId()
+        + void setId()
+        + String getName()
+        + void setName()
+    }
+
+    Class AuthRequestDto {
+        - String email
+        - String password
+        + String getEmail()
+        + void setEmail()
+        + String getPassword()
+        + String setPassword()
+    }
+
+    Class SignUpRequestDto {
+        - String email
+        - String password
+        + String getEmail()
+        + void setEmail()
+        + String getPassword()
+        + String setPassword()
+    }
+
+    Class AuthResponseDTO {
+        - String token
+        + String getToken()
+        + void setToken()
+    }
+
+    interface RoleRepository
+          note top: наследуется от\n JpaRepository<Role, Integer>
+
+    interface UserRepository
+        note top: наследуется от\n JpaRepository<User, Integer>
+
+    Class UserService {
+        - UserRepository userRepository
+        - RoleRepository roleRepository
+        + User saveUser(User user)
+        + User findByEmail(String email)
+        + User findByLoginAndPassword(String email, String password)
+    }
+
+    Class UserController {
+        - final UserService userService
+        - final ITokenService itokenService
+        - JdbcRepository jdbcRepository
+        + User registerUser(String email)
+        + void registerUser(SignUpRequestDto signUpRequestDto)
+        + AuthResponseDTO login(AuthRequestDto request)
+        + Boolean logout(String token)
+    }
+  }
+@enduml
+
+PlantUML version 1.2021.11beta6(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

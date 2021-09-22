@@ -1,0 +1,19 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+participant ProductController
+participant ProductService
+database DB_product.sql
+
+ProductController -> ProductService: id product
+ProductService -> DB_product.sql: id product
+DB_product.sql -> ProductService: product
+ProductService -> ProductController: product
+
+ProductController -> ProductService: Another id product
+ProductService -> DB_product.sql: Another id product
+DB_product.sql x-> ProductService: no other product
+ProductService -> Exception: no other product
+ProductController <- Exception: ResourceNotFoundException
+@enduml
