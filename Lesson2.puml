@@ -1,0 +1,209 @@
+@startuml
+'https://plantuml.com/class-diagram
+skinparam classAttributeIconSize 0
+"core-lib" +-- "user"
+"core-lib" +-- "product"
+
+package "core-lib" #DDDDDD {
+
+    RedisRepository --> JWTAuthenticationFilter
+    RedisRepository ..|> RedisConfiguration
+    UserInfo --> JWTTokenService
+    ITokenService <|..|> JWTTokenService
+    UserInfo --> ITokenService
+
+    Class UserInfo {
+        - Long userId
+        - String userEmail
+        - List<String> role
+        + Long getUserId()
+        + String getUserEmail()
+        + List<String> getRole()
+        + void setRole(List<String> role)
+    }
+
+    Class SecurityConfig {
+        - final JWTAuthenticationFilter filter
+        + void configure(HttpSecurity http)
+        + PasswordEncoder passwordEncoder()
+    }
+    note right: наследуется от \n WebSecurityConfigurerAdapter
+
+    Class RedisConfiguration {
+        + JedisConnectionFactory jedisConnectionFactory()
+        + RedisTemplate<String, Object> redisTemplate()
+    }
+
+    Class JWTAuthenticationFilter {
+        - final ITokenService tokenService
+        - final RedisRepository redisRepository
+        # void doFilterInternal(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, FilterChain filterChain)
+        - boolean authorizationHeaderIsInvalid(String authorizationHeader)
+        - private UsernamePasswordAuthenticationToken createToken(String authorizationHeader)
+    }
+    note left: наследуется от \n OncePerRequestFilter
+
+    Class RedisRepository {
+        - final RedisTemplate<String, Object> redisTemplate
+        + void saveToken(String token)
+        +  boolean checkToken(String token)
+    }
+
+
+    interface ITokenService {
+        String generateToken(UserInfo userInfo)
+        UserInfo parseToken(String token)
+    }
+
+    Class JWTTokenService {
+        - String JWT_SECRET
+        + String generateToken(UserInfo userInfo)
+        + UserInfo parseToken(String token)
+    }
+
+    Class ResourceNotFoundException
+        note right: наследуется от\n RuntimeException
+    }
+
+package "product" #DDDDDD {
+
+    Product-->ProductDto
+    ProductRepository <|..|> ProductService
+    ProductService <|..|> ProductController
+    ProductDto ..|> ProductController
+
+  Class Product {
+    - Long id
+    - String title
+    - Doble cost
+    - LocalDateTime createdAt
+    - LocalDateTime updatedAt
+    + void setId(Long id)
+    + Long getId()
+    + void setTitle(String title)
+    + String getTitle()
+    + void setCost(Double cost)
+    + Doble getCost()
+    + void setCreatedAt(LocalDateTime createdAt)
+    + LocalDateTime getCreated()
+    + void setUpdatedAt(LocalDateTime updatedAt)
+    + LocalDateTime getUpdatedAt()
+    + Product(Long id, String title, Double cost, LocalDateTime createdAt, LocalDateTime updatedAt){}
+  }
+
+  Class ProductDto{
+    - Long id
+    - String title
+    - Doble cost
+    + void setId(Long id)
+    + Long getId()
+    + void setTitle(String title)
+    + String getTitle()
+    + void setCost(Double cost)
+    + Doble getCost()
+    + ProductDto(Long id, String title, Double cost){}
+  }
+
+  interface ProductRepository
+      note top: наследуется от\n JpaRepository<Product, Long>
+
+  Class ProductService{
+      - final ProductRepository productRepository
+      + Optional<ProductDto> findProductDtoById(Long id)
+      + List<ProductDto> findProductDtosByIds(List<Long> ids)
+      + ProductDto saveOrUpdate(ProductDto product)
+      + void deleteById(Long id)
+      + ProductDto toDto(Product product)
+  }
+
+  Class ProductController{
+    - final ProductService productService
+    + ProductDto findProductById(Long id)
+    + ProductDto saveNewProduct(ProductDto product)
+    + ProductDto updateProduct(ProductDto product)
+    + void updateProduct(Long id)
+    }
+  }
+
+package "user" #DDDDDD {
+  Role ..> UserController
+  RoleRepository <|..|> UserService
+  UserRepository <|..|> UserService
+  UserService<|..|> UserController
+  AuthRequestDto ..> UserController
+  SignUpRequestDto ..> UserController
+  AuthResponseDTO ..> UserController
+  User --> AuthRequestDto
+  User --> SignUpRequestDto
+
+    Class User {
+        - Long id
+        - String email
+        - String password
+        + Long getId()
+        + void setId()
+        + String getEmail()
+        + void setEmail()
+        + String getPassword()
+        + void setPassword()
+    }
+
+    Class Role {
+        - Integer id
+        - String name
+        + Integer getId()
+        + void setId()
+        + String getName()
+        + void setName()
+    }
+
+    Class AuthRequestDto {
+        - String email
+        - String password
+        + String getEmail()
+        + void setEmail()
+        + String getPassword()
+        + String setPassword()
+    }
+
+    Class SignUpRequestDto {
+        - String email
+        - String password
+        + String getEmail()
+        + void setEmail()
+        + String getPassword()
+        + String setPassword()
+    }
+
+    Class AuthResponseDTO {
+        - String token
+        + String getToken()
+        + void setToken()
+    }
+
+    interface RoleRepository
+          note top: наследуется от\n JpaRepository<Role, Integer>
+
+    interface UserRepository
+        note top: наследуется от\n JpaRepository<User, Integer>
+
+    Class UserService {
+        - UserRepository userRepository
+        - RoleRepository roleRepository
+        + User saveUser(User user)
+        + User findByEmail(String email)
+        + User findByLoginAndPassword(String email, String password)
+    }
+
+    Class UserController {
+        - final UserService userService
+        - final ITokenService itokenService
+        - JdbcRepository jdbcRepository
+        + User registerUser(String email)
+        + void registerUser(SignUpRequestDto signUpRequestDto)
+        + AuthResponseDTO login(AuthRequestDto request)
+        + Boolean logout(String token)
+    }
+  }
+
+@enduml

@@ -1,0 +1,19 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+participant UserController
+participant UserService
+database DB_user.sql
+
+UserController -> UserService: id user
+UserService -> DB_user.sql: id user
+DB_user.sql -> UserService: user
+UserService -> UserController: user
+
+UserController -> UserService: Another id user
+UserService -> DB_user.sql: Another id user
+DB_user.sql x-> UserService: no other user
+UserService -> Exception: no other user
+UserController <- Exception: ResourceNotFoundException
+@enduml
